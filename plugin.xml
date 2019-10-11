@@ -30,6 +30,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <source-file src="src/ios/FirebaseAnalyticsPlugin.m" />
 
         <framework src="Firebase/Core" type="podspec" spec="~> 5.0"/>
+        <preference name="deployment-target" value="10.0"/>
     </platform>
 
     <platform name="android">
